@@ -1,4 +1,4 @@
-#include "a4.h"
+#include "Generit_Algorithm_Application.h"
 #include <stdlib.h>
 #include <stdio.h> 
 

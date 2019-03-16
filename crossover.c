@@ -1,5 +1,5 @@
 // File crossover.c
-#include "a4.h"
+#include "Generit_Algorithm_Application.h"
 #include <stdlib.h>
 
 void recombine(Individual *parent1, Individual *parent2, Individual *child1, Individual *child2) {
