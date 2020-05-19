@@ -1,3 +1,1 @@
 # Genetic_Algorithm_Application
-    
-The animation of images evolution is available here : https://www.youtube.com/watch?v=ijqb4eIeb3I

@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-
 int cmp(const void *a, const void *b) { 
 	return (*(Individual *)a).fitness  > (*(Individual *)b).fitness ? 1: -1; 
 }
@@ -23,7 +22,7 @@ PPM_IMAGE *evolve_image(const PPM_IMAGE *image, int num_generations, int populat
 		mutate_population(p, population_size, rate);
 		comp_fitness_population(image -> data, p, population_size);
 		qsort(p, population_size, sizeof(*p), cmp);
-	}
+    }
 	PPM_IMAGE *L = malloc(sizeof(PPM_IMAGE));
 	L -> width = p[0].image.width;
 	L -> height = p[0].image.height;
